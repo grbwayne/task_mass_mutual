@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-21T03:05:17.379Z",
+        "line": 4,
+        "name": "Validate Values Page Test",
+        "description": "",
+        "id": "values-page-test;validate-values-page-test",
+        "after": [
+          {
+            "result": {
+              "duration": 118678790,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3287335536,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already on the values page",
+            "match": {
+              "location": "Values_step_definition.user_is_already_on_the_values_page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Values page test",
+    "description": "",
+    "id": "values-page-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/values.feature",
+    "tags": []
+  }
+]
