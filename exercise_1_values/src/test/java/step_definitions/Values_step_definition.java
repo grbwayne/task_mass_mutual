@@ -1,9 +1,7 @@
 package step_definitions;
 
 import static org.junit.Assert.*;
-
 import java.util.List;
-
 import org.openqa.selenium.WebDriver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -20,7 +18,7 @@ public class Values_step_definition {
 	@Given("User is already on the values page")
 	public void user_is_already_on_the_values_page() {
 		driver = Test_base.getDriver();
-		driver.get("https://google.com");
+		driver.get("https://www.exercise1.com/values");
 	}
 
 	@Then("Verify the count of values is {int}")
